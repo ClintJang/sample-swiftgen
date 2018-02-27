@@ -99,10 +99,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC874480204004C7005B43F7 /* Build configuration list for PBXNativeTarget "JWSSwiftGenSample" */;
 			buildPhases = (
+				BCAB152520455BAE0055E7DD /* SwiftGen */,
 				BC87446A204004C6005B43F7 /* Sources */,
 				BC87446B204004C6005B43F7 /* Frameworks */,
 				BC87446C204004C6005B43F7 /* Resources */,
-				BCAB152520455BAE0055E7DD /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -175,7 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n";
+			shellScript = "# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n\n# testing script case 03";
 		};
 /* End PBXShellScriptBuildPhase section */
 

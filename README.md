@@ -28,6 +28,14 @@ $ swiftgen ...
 
 # Samples 
 > Download the sample source and modify the "/Resources/TestCase0?Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case0?.Localized.swift".
+<table style="width:100%">
+  <tr>
+	<th>Script Setting<br>(Target >> Bulid Phases Tap >> + Button Click >> New Run Script Phase)</th> 
+  </tr>
+  <tr>
+  	<td><img width="563" height="274" src="/Image/script_setting.png.png"></img></td>
+  </tr>
+</table>
 
 ## Case 01
 Let's build it!
@@ -49,8 +57,8 @@ Other variants, like flat-swift2/3/4 and structured-swift2/3/4 templates for Str
 ## Case 02
 Define the naming of the enum yourself, and abbreviate the command.
 - add : --param enumName=TestCase02Strings
-- modify : --output → -o
-- modify : --template → -t
+- modify : --output â†’ -o
+- modify : --template â†’ -t
 
 <pre>
 # testing script case 02
