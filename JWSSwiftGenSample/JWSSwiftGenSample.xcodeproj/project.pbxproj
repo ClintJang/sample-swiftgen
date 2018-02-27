@@ -14,6 +14,8 @@
 		BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87447A204004C7005B43F7 /* LaunchScreen.storyboard */; };
 		BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */; };
 		BCAB1529204561BE0055E7DD /* Test.Case01.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */; };
+		BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB152A204571760055E7DD /* TestCase02Localizable.strings */; };
+		BCAB152D204571DE0055E7DD /* Test.Case02.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		BC87447D204004C7005B43F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TestCase01Localizable.strings; sourceTree = "<group>"; };
 		BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case01.Localized.swift; sourceTree = "<group>"; };
+		BCAB152A204571760055E7DD /* TestCase02Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TestCase02Localizable.strings; sourceTree = "<group>"; };
+		BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case02.Localized.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */,
+				BCAB152A204571760055E7DD /* TestCase02Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */,
+				BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */,
 				BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */,
 				BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */,
 				BC874479204004C7005B43F7 /* Assets.xcassets in Resources */,
@@ -168,7 +175,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# testing missing\n#swiftgen strings -t dot-syntax-swift4 \"$PROJECT_DIR/JWSSwiftGenSample/Resources/TestLocalizable.strings\" TestLocalizable.strings --output \"$PROJECT_DIR/JWSSwiftGenSample/Constants/TestLocalized.swift\"\n\n# testing case 01\nswiftgen strings --param enumName=TestCase01Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing case 02\n";
+			shellScript = "# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -180,6 +187,7 @@
 				BC874474204004C7005B43F7 /* ViewController.swift in Sources */,
 				BC874472204004C7005B43F7 /* AppDelegate.swift in Sources */,
 				BCAB1529204561BE0055E7DD /* Test.Case01.Localized.swift in Sources */,
+				BCAB152D204571DE0055E7DD /* Test.Case02.Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
