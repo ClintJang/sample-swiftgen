@@ -58,8 +58,8 @@ Other variants, like flat-swift2/3/4 and structured-swift2/3/4 templates for Str
 ## Case 02
 Define the naming of the enum yourself, and abbreviate the command.
 - add : --param enumName=TestCase02Strings
-- modify : --output â†’ -o
-- modify : --template â†’ -t
+- modify : --output => -o
+- modify : --template => -t
 
 <pre>
 # testing script case 02
