@@ -13,8 +13,20 @@ swiftgen --version
 - [SwiftGenKit](https://github.com/SwiftGen/SwiftGenKit) : This is the framework behind SwiftGen, responsible for parsing various resources and turning them into Stencil contexts.
 	- This repository has been merged into the main SwiftGen repository.
 
+# Install
+Before you test, be sure to follow the [link](https://github.com/SwiftGen/SwiftGen) and follow the installation process.
+<pre>
+ex) 
+install
+
+$ brew update
+$ brew install swiftgen
+
+confirm
+$ swiftgen … 
+</pre>
+
 # Sample Case 01
-The file "Test.Case01.Localized.swift" is a file created by the code generator.
 > Download the sample source and modify the "/Resources/TestCase01Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case01.Localized.swift".
 <pre>
 # testing script case 01
@@ -22,7 +34,7 @@ swiftgen strings --param enumName=TestStrings "${SRCROOT}/${TARGETNAME}/Resource
 </pre>
 
 # Sample Case 02
-> testing~ 
+> test progressing~ 
 
 # memo
 doing..
