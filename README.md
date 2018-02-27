@@ -57,7 +57,7 @@ Define the naming of the enum yourself, and abbreviate the command.
 swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift"
 </pre>
 ### result
-- file link : .. /Constants/[Test.Case02.Localized.swift]
+- file link : .. /Constants/[Test.Case02.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case02.Localized.swift)
 - 
 ## Case 03
 > doing it.
