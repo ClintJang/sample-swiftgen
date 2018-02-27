@@ -58,7 +58,7 @@ swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Re
 </pre>
 ### result
 - file link : .. /Constants/[Test.Case02.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case02.Localized.swift)
-- 
+
 ## Case 03
 > doing it.
 # memo
