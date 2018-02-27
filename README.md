@@ -82,7 +82,7 @@ Add localization
 	<th>difference point</th> 
   </tr>
   <tr>
-  	<td><img width="563" height="274" src="/Localizable.png"></img></td>
+  	<td><img width="282" height="137" src="/Image/Localizable.png"></img></td>
   </tr>
 </table>
 
