@@ -36,6 +36,7 @@ $ swiftgen ...
   	<td><img width="563" height="274" src="/Image/script_setting.png"></img></td>
   </tr>
 </table>
+※ You can create a **** .sh file later and run it.
 
 ## Case 01
 Let's build it!
