@@ -29,7 +29,7 @@ $ swiftgen ...
 
 # Samples 
 > Download the sample source and modify the "/Resources/TestCase0?Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case0?.Localized.swift".
-> The sample source has been built to be build at build time, but you can run the script separately in a real project.
+> - The sample source has been built to be build at build time, but you can run the script separately in a real project.
 
 <table style="width:100%">
   <tr>
