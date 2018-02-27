@@ -6,7 +6,7 @@
 # Development Information
 | check version information?!!
 <pre>
-swiftgen --version
+$ swiftgen --version
   SwiftGen v5.2.1 (Stencil v0.9.0, StencilSwiftKit v2.3.0, SwiftGenKit v2.1.1)
 </pre>
 - [Stencil](https://stenciljs.com/) : The magical, reusable web component compiler
@@ -39,6 +39,7 @@ $ swiftgen ...
   </tr>
 </table>
 - You can create a **** .sh file later and run it.
+- The sample source has been built to be build at build time, but you can run the script separately in a real project.
 
 ## Case 01
 Let's build it!
