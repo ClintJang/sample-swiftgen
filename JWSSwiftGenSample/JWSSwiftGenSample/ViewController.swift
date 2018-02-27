@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var case01Label: UILabel!
     @IBOutlet weak var case02Label: UILabel!
+    @IBOutlet weak var case03Label: UILabel!
     
     
     override func viewDidLoad() {
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         case02Label.text = TestCase02Strings.testCase02TitleTop01
 
         // Case 03
+        case03Label.text = TestCase03Strings.testCase03TitleBottom01
     }
 
     override func didReceiveMemoryWarning() {

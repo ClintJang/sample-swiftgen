@@ -43,6 +43,8 @@ $ swiftgen ...
 ## Case 01
 Let's build it!
 <pre>
+Script..
+
 # testing script case 01
 swiftgen strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings" --template structured-swift4 --output "${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift"
 </pre>
@@ -64,6 +66,8 @@ Define the naming of the enum yourself, and abbreviate the command.
 - modify : --template => -t
 
 <pre>
+Script..
+
 # testing script case 02
 swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift"
 </pre>
@@ -71,6 +75,29 @@ swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Re
 - file link : .. /Constants/[Test.Case02.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case02.Localized.swift)
 
 ## Case 03
+Add localization
+- modify : ../Resources/.. => ../Resources/Base.lproj/..
+<table style="width:100%">
+  <tr>
+	<th>difference point</th> 
+  </tr>
+  <tr>
+  	<td><img width="563" height="274" src="/Localizable.png"></img></td>
+  </tr>
+</table>
+
+<pre>
+Script.. 
+
+# testing script case 03
+swiftgen strings --param enumName=TestCase03Strings "${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift"
+</pre>
+
+### result
+- file link : .. /Constants/[Test.Case03.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case03.Localized.swift)
+
+## Case 04
 > doing it.
+
 # memo
 It's a bit difficult ... but ..

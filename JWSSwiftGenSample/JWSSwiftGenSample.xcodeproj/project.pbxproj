@@ -17,6 +17,7 @@
 		BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB152A204571760055E7DD /* TestCase02Localizable.strings */; };
 		BCAB152D204571DE0055E7DD /* Test.Case02.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */; };
 		BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB153220457B9E0055E7DD /* TestCase03Localizable.strings */; };
+		BCAB1536204580AE0055E7DD /* Test.Case03.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1535204580AE0055E7DD /* Test.Case03.Localized.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BCAB153120457B9E0055E7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
 		BCAB153320457BAD0055E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
 		BCAB153420457C060055E7DD /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
+		BCAB1535204580AE0055E7DD /* Test.Case03.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case03.Localized.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			children = (
 				BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */,
 				BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */,
+				BCAB1535204580AE0055E7DD /* Test.Case03.Localized.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -182,7 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n\n# testing script case 03\n#swiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift\"";
+			shellScript = "# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -193,6 +196,7 @@
 			files = (
 				BC874474204004C7005B43F7 /* ViewController.swift in Sources */,
 				BC874472204004C7005B43F7 /* AppDelegate.swift in Sources */,
+				BCAB1536204580AE0055E7DD /* Test.Case03.Localized.swift in Sources */,
 				BCAB1529204561BE0055E7DD /* Test.Case01.Localized.swift in Sources */,
 				BCAB152D204571DE0055E7DD /* Test.Case02.Localized.swift in Sources */,
 			);
