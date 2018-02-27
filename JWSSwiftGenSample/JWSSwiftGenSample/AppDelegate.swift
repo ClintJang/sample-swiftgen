@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  JWSSwiftGenSample
 //
-//  Created by Jang Wangsu on 2018. 2. 23..
+//  Created by Clint on 2018. 2. 23..
 //  Copyright © 2018년 clint. All rights reserved.
 //
 
