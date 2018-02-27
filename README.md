@@ -33,7 +33,7 @@ $ swiftgen ...
 	<th>Script Setting<br>(Target >> Bulid Phases Tap >> + Button Click >> New Run Script Phase)</th> 
   </tr>
   <tr>
-  	<td><img width="563" height="274" src="/Image/script_setting.png.png"></img></td>
+  	<td><img width="563" height="274" src="/Image/script_setting.png"></img></td>
   </tr>
 </table>
 
