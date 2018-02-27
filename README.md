@@ -1,4 +1,4 @@
-# sample-swiftgen
+# Sample SwiftGen
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen) : How to use it!!!!
 
@@ -23,14 +23,22 @@ $ brew update
 $ brew install swiftgen
 
 confirm
-$ swiftgen … 
+$ swiftgen ...
 </pre>
 
 # Sample Case 01
 > Download the sample source and modify the "/Resources/TestCase01Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case01.Localized.swift".
 <pre>
 # testing script case 01
-swiftgen strings --param enumName=TestStrings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings" -t structured-swift3 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift"
+swiftgen strings --param enumName=TestCase01Strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift"
+</pre>
+
+> Read the [Link(SwiftGen)](https://github.com/SwiftGen/SwiftGen) "Templates bundled with SwiftGen:".
+<pre>
+A swift2 template, compatible with Swift 2
+A swift3 template, compatible with Swift 3
+A swift4 template, compatible with Swift 4
+Other variants, like flat-swift2/3/4 and structured-swift2/3/4 templates for Strings, etc.
 </pre>
 
 # Sample Case 02

@@ -10,9 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var case01Label: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        // Use Case 01
+        case01Label.text = TestCase01Strings.testCase01TitleTop01
     }
 
     override func didReceiveMemoryWarning() {

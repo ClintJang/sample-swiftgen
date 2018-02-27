@@ -168,7 +168,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# testing missing\n#swiftgen strings -t dot-syntax-swift4 \"$PROJECT_DIR/JWSSwiftGenSample/Resources/TestLocalizable.strings\" TestLocalizable.strings --output \"$PROJECT_DIR/JWSSwiftGenSample/Constants/TestLocalized.swift\"\n\n# testing case 01\nswiftgen strings --param enumName=TestStrings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" -t structured-swift3 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing case 02\n";
+			shellScript = "# testing missing\n#swiftgen strings -t dot-syntax-swift4 \"$PROJECT_DIR/JWSSwiftGenSample/Resources/TestLocalizable.strings\" TestLocalizable.strings --output \"$PROJECT_DIR/JWSSwiftGenSample/Constants/TestLocalized.swift\"\n\n# testing case 01\nswiftgen strings --param enumName=TestCase01Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing case 02\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
