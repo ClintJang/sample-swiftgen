@@ -185,7 +185,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift\"";
+			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift\"\n\n\n### colors\n\n\n### Font\n\n\n### storyboards\n\n\n### xcassets\n\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
