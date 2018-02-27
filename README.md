@@ -1,6 +1,7 @@
 # Sample SwiftGen
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen) : How to use it!!!!
+- SwiftGen is a tool to auto-generate Swift code for resources of your projects, to make them type-safe to use.
 
 # Development Information
 | check version information?!!
@@ -28,6 +29,7 @@ $ swiftgen ...
 
 # Samples 
 > Download the sample source and modify the "/Resources/TestCase0?Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case0?.Localized.swift".
+
 <table style="width:100%">
   <tr>
 	<th>Script Setting<br>(Target >> Bulid Phases Tap >> + Button Click >> New Run Script Phase)</th> 
@@ -36,7 +38,7 @@ $ swiftgen ...
   	<td><img width="563" height="274" src="/Image/script_setting.png"></img></td>
   </tr>
 </table>
-※ You can create a **** .sh file later and run it.
+- You can create a **** .sh file later and run it.
 
 ## Case 01
 Let's build it!

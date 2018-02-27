@@ -1,0 +1,15 @@
+/* 
+  TestCase03Localizable.strings
+  JWSSwiftGenSample
+
+  Created by Jang Wangsu on 2018. 2. 27..
+  Copyright © 2018년 clint. All rights reserved.
+*/
+
+"test_case03_sub_index01" = "테스트(구분03) 문구 1";
+
+"test_case03_sub_index02" = "테스트(구분03) 문구 2";
+
+"test_case03_title_top01" = "테스트(구분03) 셈플 1";
+
+"test_case03_title_bottom01" = "테스트(구분03) 셈플 2";
