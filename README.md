@@ -1,7 +1,7 @@
 # Sample SwiftGen
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen) : How to use it!!!!
-- SwiftGen is a tool to auto-generate Swift code for resources of your projects, to make them type-safe to use.
+- SwiftGen is **a tool to auto-generate Swift code for resources** of your projects, to make them type-safe to use.
 
 # Development Information
 | check version information?!!
