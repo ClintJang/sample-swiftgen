@@ -27,9 +27,8 @@ confirm
 $ swiftgen ...
 </pre>
 
-# Samples 
+# Samples (Base Template)
 > Download the sample source and modify the "/Resources/TestCase0?Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case0?.Localized.swift".
-> - The sample source has been built to be build at build time, but you can run the script separately in a real project.
 
 <table style="width:100%">
   <tr>
@@ -39,9 +38,16 @@ $ swiftgen ...
   	<td><img width="563" height="274" src="/Image/script_setting.png"></img></td>
   </tr>
 </table>
-- You can create a **** .sh file later and run it.
 
-## Case 01
+- You can create a **** .sh file later and run it.
+- Now let 's test the basics of 5 things!
+	- swiftgen strings [OPTIONS] FILE1 …
+	- swiftgen storyboards [OPTIONS] DIR1 …
+	- swiftgen xcassets [OPTIONS] CATALOG1 …
+	- swiftgen colors [OPTIONS] FILE1 …
+	- swiftgen fonts [OPTIONS] DIR1 …
+
+## Case 01 : String
 Let's build it!
 <pre>
 Script..
@@ -60,7 +66,7 @@ Other variants, like flat-swift2/3/4 and structured-swift2/3/4 templates for Str
 ### result
 - file link : .. /Constants/[Test.Case01.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case01.Localized.swift)
 
-## Case 02
+## Case 02 : String
 Define the naming of the enum yourself, and abbreviate the command.
 - add : --param enumName=TestCase02Strings
 - modify : --output => -o
@@ -75,7 +81,7 @@ swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Re
 ### result
 - file link : .. /Constants/[Test.Case02.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case02.Localized.swift)
 
-## Case 03
+## Case 03 : String
 Add localization
 - modify : ../Resources/.. => ../Resources/Base.lproj/..
 <table style="width:100%">
@@ -97,8 +103,23 @@ swiftgen strings --param enumName=TestCase03Strings "${SRCROOT}/${TARGETNAME}/Re
 ### result
 - file link : .. /Constants/[Test.Case03.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case03.Localized.swift)
 
-## Case 04
+## Case 04 : StoryBoard
+> Storyboards are a little different but similar.
+<pre>
+Script.. 
+
+# testing script case 04
+swiftgen storyboards -t swift4 "${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard" -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case04.Storyboards.swift"
+</pre>
+
+### result
+- file link : .. /Constants/[Test.Case04.Storyboards.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case04.Storyboards.swift)
+
+## Case 05
 > doing it.
+
+# Samples (User Custom)
+> I will test the basics and customize it later.
 
 # memo
 It's a bit difficult ... but ..
