@@ -116,6 +116,19 @@ swiftgen storyboards -t swift4 "${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storybo
 - file link : .. /Constants/BasicTemplate/[Test.Case04.Storyboards.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case04.Storyboards.swift)
 
 ## Case 05
+> Xcassets !!
+
+<pre>
+Script.. 
+
+# testing script case 05
+swiftgen xcassets "${SRCROOT}/${TARGETNAME}/Assets.xcassets" -t swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case05.Xcassets.swift"
+</pre>
+
+### result
+- file link : .. /Constants/BasicTemplate/[Test.Case05.Xcassets.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case05.Xcassets.swift)
+
+## Case 06
 > doing it.
 
 # Samples (User Custom)
