@@ -115,8 +115,8 @@ swiftgen storyboards -t swift4 "${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storybo
 ### result
 - file link : .. /Constants/BasicTemplate/[Test.Case04.Storyboards.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case04.Storyboards.swift)
 
-## Case 05
-> Xcassets !!
+## Case 05 : Xcassets
+> Let's try Xcassets!
 
 <pre>
 Script.. 
