@@ -53,7 +53,7 @@ Let's build it!
 Script..
 
 # testing script case 01
-swiftgen strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings" --template structured-swift4 --output "${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift"
+swiftgen strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings" --template structured-swift4 --output "${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case01.Localized.swift"
 </pre>
 
 > Read the [Link(SwiftGen)](https://github.com/SwiftGen/SwiftGen) "Templates bundled with SwiftGen:".
@@ -64,7 +64,7 @@ A swift4 template, compatible with Swift 4
 Other variants, like flat-swift2/3/4 and structured-swift2/3/4 templates for Strings, etc.
 </pre>
 ### result
-- file link : .. /Constants/[Test.Case01.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case01.Localized.swift)
+- file link : .. /Constants/BasicTemplate/[Test.Case01.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case01.Localized.swift)
 
 ## Case 02 : String
 Define the naming of the enum yourself, and abbreviate the command.
@@ -76,10 +76,10 @@ Define the naming of the enum yourself, and abbreviate the command.
 Script..
 
 # testing script case 02
-swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift"
+swiftgen strings --param enumName=TestCase02Strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case02.Localized.swift"
 </pre>
 ### result
-- file link : .. /Constants/[Test.Case02.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case02.Localized.swift)
+- file link : .. /Constants/BasicTemplate/[Test.Case02.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case02.Localized.swift)
 
 ## Case 03 : String
 Add localization
@@ -97,11 +97,11 @@ Add localization
 Script.. 
 
 # testing script case 03
-swiftgen strings --param enumName=TestCase03Strings "${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift"
+swiftgen strings --param enumName=TestCase03Strings "${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings" -t structured-swift4 -o "${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case03.Localized.swift"
 </pre>
 
 ### result
-- file link : .. /Constants/[Test.Case03.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case03.Localized.swift)
+- file link : .. /Constants/BasicTemplate/[Test.Case03.Localized.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case03.Localized.swift)
 
 ## Case 04 : StoryBoard
 > Storyboards are a little different but similar.
@@ -109,11 +109,11 @@ swiftgen strings --param enumName=TestCase03Strings "${SRCROOT}/${TARGETNAME}/Re
 Script.. 
 
 # testing script case 04
-swiftgen storyboards -t swift4 "${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard" -o "${SRCROOT}/${TARGETNAME}/Constants/Test.Case04.Storyboards.swift"
+swiftgen storyboards -t swift4 "${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard" -o "${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case04.Storyboards.swift"
 </pre>
 
 ### result
-- file link : .. /Constants/[Test.Case04.Storyboards.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/Test.Case04.Storyboards.swift)
+- file link : .. /Constants/BasicTemplate/[Test.Case04.Storyboards.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case04.Storyboards.swift)
 
 ## Case 05
 > doing it.

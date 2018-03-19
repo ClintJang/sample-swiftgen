@@ -13,12 +13,12 @@
 		BC874479204004C7005B43F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC874478204004C7005B43F7 /* Assets.xcassets */; };
 		BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87447A204004C7005B43F7 /* LaunchScreen.storyboard */; };
 		BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */; };
-		BCAB1529204561BE0055E7DD /* Test.Case01.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */; };
 		BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB152A204571760055E7DD /* TestCase02Localizable.strings */; };
-		BCAB152D204571DE0055E7DD /* Test.Case02.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */; };
 		BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB153220457B9E0055E7DD /* TestCase03Localizable.strings */; };
-		BCAB1536204580AE0055E7DD /* Test.Case03.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAB1535204580AE0055E7DD /* Test.Case03.Localized.swift */; };
-		BCAE7C01205FC2A700C18705 /* Test.Case04.Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C00205FC2A700C18705 /* Test.Case04.Storyboards.swift */; };
+		BCAE7C0D205FCC6100C18705 /* Test.Case01.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C08205FCC6000C18705 /* Test.Case01.Localized.swift */; };
+		BCAE7C0E205FCC6100C18705 /* Test.Case02.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C09205FCC6000C18705 /* Test.Case02.Localized.swift */; };
+		BCAE7C0F205FCC6100C18705 /* Test.Case03.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C0A205FCC6000C18705 /* Test.Case03.Localized.swift */; };
+		BCAE7C10205FCC6100C18705 /* Test.Case04.Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +30,14 @@
 		BC87447B204004C7005B43F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC87447D204004C7005B43F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TestCase01Localizable.strings; sourceTree = "<group>"; };
-		BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case01.Localized.swift; sourceTree = "<group>"; };
 		BCAB152A204571760055E7DD /* TestCase02Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TestCase02Localizable.strings; sourceTree = "<group>"; };
-		BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case02.Localized.swift; sourceTree = "<group>"; };
 		BCAB153120457B9E0055E7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
 		BCAB153320457BAD0055E7DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
 		BCAB153420457C060055E7DD /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
-		BCAB1535204580AE0055E7DD /* Test.Case03.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case03.Localized.swift; sourceTree = "<group>"; };
-		BCAE7C00205FC2A700C18705 /* Test.Case04.Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case04.Storyboards.swift; sourceTree = "<group>"; };
+		BCAE7C08205FCC6000C18705 /* Test.Case01.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case01.Localized.swift; sourceTree = "<group>"; };
+		BCAE7C09205FCC6000C18705 /* Test.Case02.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case02.Localized.swift; sourceTree = "<group>"; };
+		BCAE7C0A205FCC6000C18705 /* Test.Case03.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case03.Localized.swift; sourceTree = "<group>"; };
+		BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case04.Storyboards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,12 +95,28 @@
 		BCAB15222045588C0055E7DD /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				BCAB1528204561BE0055E7DD /* Test.Case01.Localized.swift */,
-				BCAB152C204571DE0055E7DD /* Test.Case02.Localized.swift */,
-				BCAB1535204580AE0055E7DD /* Test.Case03.Localized.swift */,
-				BCAE7C00205FC2A700C18705 /* Test.Case04.Storyboards.swift */,
+				BCAE7C07205FCC6000C18705 /* BasicTemplate */,
+				BCAE7C0C205FCC6000C18705 /* CustomTemplate */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		BCAE7C07205FCC6000C18705 /* BasicTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BCAE7C08205FCC6000C18705 /* Test.Case01.Localized.swift */,
+				BCAE7C09205FCC6000C18705 /* Test.Case02.Localized.swift */,
+				BCAE7C0A205FCC6000C18705 /* Test.Case03.Localized.swift */,
+				BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */,
+			);
+			path = BasicTemplate;
+			sourceTree = "<group>";
+		};
+		BCAE7C0C205FCC6000C18705 /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomTemplate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,7 +205,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case03.Localized.swift\"\n\n### storyboards\n# testing script case 04\nswiftgen storyboards -t swift4 \"${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard\" -o \"${SRCROOT}/${TARGETNAME}/Constants/Test.Case04.Storyboards.swift\"\n\n### xcassets\n\n\n### colors\n\n\n### Font\n\n\n\n\n\n\n";
+			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case03.Localized.swift\"\n\n### storyboards\n# testing script case 04\nswiftgen storyboards -t swift4 \"${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard\" -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case04.Storyboards.swift\"\n\n### xcassets\n# testing script case 05\n\n\n### colors\n\n\n### Font\n\n\n\n\n\n\n";
 		};
 		BCAE7C02205FC5F400C18705 /* SwiftGen Custom */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -214,10 +230,10 @@
 			files = (
 				BC874474204004C7005B43F7 /* ViewController.swift in Sources */,
 				BC874472204004C7005B43F7 /* AppDelegate.swift in Sources */,
-				BCAE7C01205FC2A700C18705 /* Test.Case04.Storyboards.swift in Sources */,
-				BCAB1536204580AE0055E7DD /* Test.Case03.Localized.swift in Sources */,
-				BCAB1529204561BE0055E7DD /* Test.Case01.Localized.swift in Sources */,
-				BCAB152D204571DE0055E7DD /* Test.Case02.Localized.swift in Sources */,
+				BCAE7C10205FCC6100C18705 /* Test.Case04.Storyboards.swift in Sources */,
+				BCAE7C0F205FCC6100C18705 /* Test.Case03.Localized.swift in Sources */,
+				BCAE7C0D205FCC6100C18705 /* Test.Case01.Localized.swift in Sources */,
+				BCAE7C0E205FCC6100C18705 /* Test.Case02.Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
