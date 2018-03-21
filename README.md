@@ -130,6 +130,7 @@ swiftgen xcassets "${SRCROOT}/${TARGETNAME}/Assets.xcassets" -t swift4 -o "${SRC
 
 ## Case 06
 > I added color samples. However, you can add color in xcassets. It will then be added to the output of case 5.
+>> https://github.com/SwiftGen/SwiftGen/issues/315
 
 - add file (colors.txt)
 <table style="width:100%">
