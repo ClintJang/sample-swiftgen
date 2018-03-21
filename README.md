@@ -49,8 +49,7 @@ $ swiftgen ...
 
 ## Case 01 : String
 Let's build it!
-- resource file : TestCase01Localizable.strings
-- auto result file : Test.Case01.Localized.swift
+- resource file : [TestCase01Localizable.strings](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Resources/TestCase01Localizable.strings)
 
 <pre>
 Script..
