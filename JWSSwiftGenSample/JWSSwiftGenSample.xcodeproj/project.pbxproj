@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC1F2AE220628672001289F0 /* colors.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC1F2AE120628672001289F0 /* colors.txt */; };
+		BC1F2AE420628A00001289F0 /* Test.Case06.Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1F2AE320628A00001289F0 /* Test.Case06.Colors.swift */; };
 		BC874472204004C7005B43F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC874471204004C7005B43F7 /* AppDelegate.swift */; };
 		BC874474204004C7005B43F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC874473204004C7005B43F7 /* ViewController.swift */; };
 		BC874477204004C7005B43F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC874475204004C7005B43F7 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC1F2AE120628672001289F0 /* colors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = colors.txt; sourceTree = "<group>"; };
+		BC1F2AE320628A00001289F0 /* Test.Case06.Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case06.Colors.swift; sourceTree = "<group>"; };
 		BC87446E204004C7005B43F7 /* JWSSwiftGenSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWSSwiftGenSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC874471204004C7005B43F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC874473204004C7005B43F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,7 @@
 				BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */,
 				BCAB152A204571760055E7DD /* TestCase02Localizable.strings */,
 				BCAB153220457B9E0055E7DD /* TestCase03Localizable.strings */,
+				BC1F2AE120628672001289F0 /* colors.txt */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 				BCAE7C0A205FCC6000C18705 /* Test.Case03.Localized.swift */,
 				BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */,
 				BCAE7C11205FD0E600C18705 /* Test.Case05.Xcassets.swift */,
+				BC1F2AE320628A00001289F0 /* Test.Case06.Colors.swift */,
 			);
 			path = BasicTemplate;
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				BC874479204004C7005B43F7 /* Assets.xcassets in Resources */,
 				BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */,
 				BC874477204004C7005B43F7 /* Main.storyboard in Resources */,
+				BC1F2AE220628672001289F0 /* colors.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case03.Localized.swift\"\n\n### storyboards\n# testing script case 04\nswiftgen storyboards -t swift4 \"${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard\" -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case04.Storyboards.swift\"\n\n### xcassets\n# testing script case 05\nswiftgen xcassets \"${SRCROOT}/${TARGETNAME}/Assets.xcassets\" -t swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case05.Xcassets.swift\"\n\n### colors\n\n\n### Font\n\n\n\n\n\n\n";
+			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case03.Localized.swift\"\n\n### storyboards\n# testing script case 04\nswiftgen storyboards -t swift4 \"${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard\" -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case04.Storyboards.swift\"\n\n### xcassets\n# testing script case 05\nswiftgen xcassets \"${SRCROOT}/${TARGETNAME}/Assets.xcassets\" -t swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case05.Xcassets.swift\"\n\n### colors\n# testing script case 06\nswiftgen colors -t swift4 \"${SRCROOT}/${TARGETNAME}/Resources/colors.txt\"  -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case06.Colors.swift\"\n\n### Font\n\n\n\n\n\n\n";
 		};
 		BCAE7C02205FC5F400C18705 /* SwiftGen Custom */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -234,6 +241,7 @@
 				BC874474204004C7005B43F7 /* ViewController.swift in Sources */,
 				BC874472204004C7005B43F7 /* AppDelegate.swift in Sources */,
 				BCAE7C10205FCC6100C18705 /* Test.Case04.Storyboards.swift in Sources */,
+				BC1F2AE420628A00001289F0 /* Test.Case06.Colors.swift in Sources */,
 				BCAE7C12205FD0E700C18705 /* Test.Case05.Xcassets.swift in Sources */,
 				BCAE7C0F205FCC6100C18705 /* Test.Case03.Localized.swift in Sources */,
 				BCAE7C0D205FCC6100C18705 /* Test.Case01.Localized.swift in Sources */,
