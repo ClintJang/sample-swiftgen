@@ -128,7 +128,7 @@ swiftgen xcassets "${SRCROOT}/${TARGETNAME}/Assets.xcassets" -t swift4 -o "${SRC
 ### result
 - file link : .. /Constants/BasicTemplate/[Test.Case05.Xcassets.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case05.Xcassets.swift)
 
-## Case 06
+## Case 06 : Colors
 > I added color samples. However, you can add color in xcassets. It will then be added to the output of case 5.
 >> https://github.com/SwiftGen/SwiftGen/issues/315
 
@@ -152,8 +152,8 @@ swiftgen colors -t swift4 "${SRCROOT}/${TARGETNAME}/Resources/colors.txt"  -o "$
 ### result
 - file link : .. /Constants/BasicTemplate/[Test.Case06.Colors.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case06.Colors.swift)
 
-## Case 07
-> doing it.
+## Case 07 : Fonts
+> doing it. When this is done, I move on to using it custom.
 
 
 # Samples (User Custom)
