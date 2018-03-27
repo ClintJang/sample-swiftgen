@@ -48,6 +48,56 @@ $ swiftgen ...
 	- swiftgen xcassets [OPTIONS] CATALOG1 …
 	- swiftgen colors [OPTIONS] FILE1 …
 	- swiftgen fonts [OPTIONS] DIR1 …
+	
+## Case 01 ~ 07 : Test results
+<table style="width:100%">
+  <tr>
+  	<td><img width="237" height="478" src="/Image/use_case_00.png"></img></td>
+  </tr>
+</table>
+
+- ViewController.swift
+<pre>
+override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        testSamplesBaseTemplates()
+    }
+
+    func testSamplesBaseTemplates() {
+        // Case 01 : String
+        case01Label.text = L10n.testCase01TitleTop01
+        
+        // Case 02 : String
+        case02Label.text = TestCase02Strings.testCase02TitleTop01
+        
+        // Case 03 : String
+        case03Label.text = TestCase03Strings.testCase03TitleBottom01
+        
+        // Case 04 : Storyboard
+        // Pass
+        
+        // Case 05-1 : Assets
+        //        let swiftGenSample01Image = UIImage(asset: Asset.imageSwiftGenSample01)
+        let swiftGenSample01Image = Asset.imageSwiftGenSample01.image
+        case0501ImageView.image = swiftGenSample01Image
+        debugPrint(Asset.allImages)
+        
+        //        case0502Label.textColor = UIColor(asset: Asset.test01Color)
+        case0502Label.textColor = Asset.test01Color.color
+        debugPrint(Asset.allColors)
+        
+        // Case 06 : Colors
+        //        case06Label.textColor = Color(named:ColorName.articleBody)
+        case06Label.textColor = ColorName.articleBody.color
+        
+        // Case 07 : Fonts
+        //        case06Label.font = UIFont(font: FontFamily.SFCompactDisplay.ultralight, size: 30.0)
+        case07Label.font = UIFont(font: FontFamily.SFProDisplay.blackItalic, size: 30.0)
+    }
+</pre>
+
+> Let's look at the details.
 
 ## Case 01 : String
 Let's build it!
