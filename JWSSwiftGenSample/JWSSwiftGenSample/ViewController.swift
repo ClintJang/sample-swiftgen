@@ -14,7 +14,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var case02Label: UILabel!
     @IBOutlet weak var case03Label: UILabel!
     
-    @IBOutlet weak var case05ImageView: UIImageView!
+    @IBOutlet weak var case0501ImageView: UIImageView!
+    @IBOutlet weak var case0502Label: UILabel!
+    
+    @IBOutlet weak var case06Label: UILabel!
+    @IBOutlet weak var case07Label: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,15 +37,24 @@ class ViewController: UIViewController {
         // Case 04 : Storyboard
         // Pass
         
-        // Case 05 : Assets
-        let swiftGenSample01Image = UIImage(asset: Asset.imageSwiftGenSample01)
-        case05ImageView.image = swiftGenSample01Image
+        // Case 05-1 : Assets
+//        let swiftGenSample01Image = UIImage(asset: Asset.imageSwiftGenSample01)
+        let swiftGenSample01Image = Asset.imageSwiftGenSample01.image
+        case0501ImageView.image = swiftGenSample01Image
         debugPrint(Asset.allImages)
-        //debugPrint(Asset.allColors)
+        
+//        case0502Label.textColor = UIColor(asset: Asset.test01Color)
+        case0502Label.textColor = Asset.test01Color.color
+        debugPrint(Asset.allColors)
         
         // Case 06 : Colors
+//        case06Label.textColor = Color(named:ColorName.articleBody)
+        case06Label.textColor = ColorName.articleBody.color
         
         // Case 07 : Fonts
+//        case06Label.font = UIFont(font: FontFamily.SFCompactDisplay.ultralight, size: 30.0)
+        case07Label.font = UIFont(font: FontFamily.SFProDisplay.blackItalic, size: 30.0)
+
     }
 
     override func didReceiveMemoryWarning() {
