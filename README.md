@@ -52,7 +52,7 @@ $ swiftgen ...
 ## Case 01 ~ 07 : Test results
 <table style="width:100%">
   <tr>
-  	<td><img width="237" height="478" src="/Image/use_case_00.png"></img></td>
+  	<td><img width="251" height="494" src="/Image/use_case_00.png"></img></td>
   </tr>
 </table>
 
