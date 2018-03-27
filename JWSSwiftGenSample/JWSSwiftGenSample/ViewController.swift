@@ -21,22 +21,27 @@ class ViewController: UIViewController {
         
         // Do any additional setup after loading the view, typically from a nib.
         
-        // Case 01
+        // Case 01 : String
         case01Label.text = L10n.testCase01TitleTop01
         
-        // Case 02
+        // Case 02 : String
         case02Label.text = TestCase02Strings.testCase02TitleTop01
 
-        // Case 03
+        // Case 03 : String
         case03Label.text = TestCase03Strings.testCase03TitleBottom01
         
-        // Case 04
+        // Case 04 : Storyboard
         // Pass
         
-        // Case 05
+        // Case 05 : Assets
         let swiftGenSample01Image = UIImage(asset: Asset.imageSwiftGenSample01)
         case05ImageView.image = swiftGenSample01Image
+        debugPrint(Asset.allImages)
+        //debugPrint(Asset.allColors)
         
+        // Case 06 : Colors
+        
+        // Case 07 : Fonts
     }
 
     override func didReceiveMemoryWarning() {
