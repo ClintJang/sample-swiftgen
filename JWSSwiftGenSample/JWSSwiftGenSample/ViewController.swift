@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var case02Label: UILabel!
     @IBOutlet weak var case03Label: UILabel!
     
+    @IBOutlet weak var case05ImageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +29,14 @@ class ViewController: UIViewController {
 
         // Case 03
         case03Label.text = TestCase03Strings.testCase03TitleBottom01
+        
+        // Case 04
+        // Pass
+        
+        // Case 05
+        let swiftGenSample01Image = UIImage(asset: Asset.imageSwiftGenSample01)
+        case05ImageView.image = swiftGenSample01Image
+        
     }
 
     override func didReceiveMemoryWarning() {
