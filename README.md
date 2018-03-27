@@ -181,8 +181,9 @@ swiftgen fonts -t swift4 "${SRCROOT}/${TARGETNAME}/Resources/Font"  -o "${SRCROO
 - file link : .. /Constants/BasicTemplate/[Test.Case07.Fonts.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case07.Fonts.swift)
 
 
-# Samples (User Custom)
+# Samples (User Custom, Use of Stencil)
 > I will use the Samples (Base Template) use case and test the custom.
+
 > I will test the basics and customize it later.
 
 # memo
