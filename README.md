@@ -155,10 +155,32 @@ swiftgen colors -t swift4 "${SRCROOT}/${TARGETNAME}/Resources/colors.txt"  -o "$
 - file link : .. /Constants/BasicTemplate/[Test.Case06.Colors.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case06.Colors.swift)
 
 ## Case 07 : Fonts
-> doing it. When this is done, I move on to using it custom.
+> I added some of the font files from Apple, and tried to code-generate the fonts in that path into files.
+
+- add fonts file (in "Font" folder)
+<table style="width:100%">
+  <tr>
+	<th>add fonts file</th> 
+  </tr>
+  <tr>
+  	<td><img width="275" height="329" src="/Image/case7_fonts.png"></img></td>
+  </tr>
+</table>
+
+<pre>
+Script.. 
+
+# testing script case 07
+# https://developer.apple.com/fonts/
+swiftgen fonts -t swift4 "${SRCROOT}/${TARGETNAME}/Resources/Font"  -o "${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case07.Fonts.swift"
+</pre>
+
+### result
+- file link : .. /Constants/BasicTemplate/[Test.Case07.Fonts.swift](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/BasicTemplate/Test.Case07.Fonts.swift)
 
 
 # Samples (User Custom)
+> I will use the Samples (Base Template) use case and test the custom.
 > I will test the basics and customize it later.
 
 # memo
