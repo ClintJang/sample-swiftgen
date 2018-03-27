@@ -22,6 +22,15 @@
 		BCAE7C0F205FCC6100C18705 /* Test.Case03.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C0A205FCC6000C18705 /* Test.Case03.Localized.swift */; };
 		BCAE7C10205FCC6100C18705 /* Test.Case04.Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */; };
 		BCAE7C12205FD0E700C18705 /* Test.Case05.Xcassets.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCAE7C11205FD0E600C18705 /* Test.Case05.Xcassets.swift */; };
+		BCED61A32069EFF60060EF82 /* SF-Pro-Display-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED619B2069EFF60060EF82 /* SF-Pro-Display-BlackItalic.otf */; };
+		BCED61A42069EFF60060EF82 /* SF-Pro-Display-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED619C2069EFF60060EF82 /* SF-Pro-Display-HeavyItalic.otf */; };
+		BCED61A52069EFF60060EF82 /* SF-Pro-Display-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED619D2069EFF60060EF82 /* SF-Pro-Display-Light.otf */; };
+		BCED61A62069EFF60060EF82 /* SF-Pro-Display-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED619E2069EFF60060EF82 /* SF-Pro-Display-LightItalic.otf */; };
+		BCED61A72069EFF60060EF82 /* SFCompactDisplay-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED619F2069EFF60060EF82 /* SFCompactDisplay-Ultralight.otf */; };
+		BCED61A82069EFF60060EF82 /* SFCompactText-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED61A02069EFF60060EF82 /* SFCompactText-RegularItalic.otf */; };
+		BCED61A92069EFF60060EF82 /* SFCompactText-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED61A12069EFF60060EF82 /* SFCompactText-Semibold.otf */; };
+		BCED61AA2069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCED61A22069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf */; };
+		BCED61AC2069F0060060EF82 /* Test.Case07.Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED61AB2069F0060060EF82 /* Test.Case07.Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +53,15 @@
 		BCAE7C0A205FCC6000C18705 /* Test.Case03.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case03.Localized.swift; sourceTree = "<group>"; };
 		BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case04.Storyboards.swift; sourceTree = "<group>"; };
 		BCAE7C11205FD0E600C18705 /* Test.Case05.Xcassets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case05.Xcassets.swift; sourceTree = "<group>"; };
+		BCED619B2069EFF60060EF82 /* SF-Pro-Display-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-BlackItalic.otf"; sourceTree = "<group>"; };
+		BCED619C2069EFF60060EF82 /* SF-Pro-Display-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-HeavyItalic.otf"; sourceTree = "<group>"; };
+		BCED619D2069EFF60060EF82 /* SF-Pro-Display-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-Light.otf"; sourceTree = "<group>"; };
+		BCED619E2069EFF60060EF82 /* SF-Pro-Display-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Display-LightItalic.otf"; sourceTree = "<group>"; };
+		BCED619F2069EFF60060EF82 /* SFCompactDisplay-Ultralight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactDisplay-Ultralight.otf"; sourceTree = "<group>"; };
+		BCED61A02069EFF60060EF82 /* SFCompactText-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-RegularItalic.otf"; sourceTree = "<group>"; };
+		BCED61A12069EFF60060EF82 /* SFCompactText-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-Semibold.otf"; sourceTree = "<group>"; };
+		BCED61A22069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SFCompactText-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		BCED61AB2069F0060060EF82 /* Test.Case07.Font.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Case07.Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +113,7 @@
 				BCAB152A204571760055E7DD /* TestCase02Localizable.strings */,
 				BCAB153220457B9E0055E7DD /* TestCase03Localizable.strings */,
 				BC1F2AE120628672001289F0 /* colors.txt */,
+				BCED619A2069EFF60060EF82 /* Font */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -117,6 +136,7 @@
 				BCAE7C0B205FCC6000C18705 /* Test.Case04.Storyboards.swift */,
 				BCAE7C11205FD0E600C18705 /* Test.Case05.Xcassets.swift */,
 				BC1F2AE320628A00001289F0 /* Test.Case06.Colors.swift */,
+				BCED61AB2069F0060060EF82 /* Test.Case07.Font.swift */,
 			);
 			path = BasicTemplate;
 			sourceTree = "<group>";
@@ -126,6 +146,21 @@
 			children = (
 			);
 			path = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		BCED619A2069EFF60060EF82 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				BCED619B2069EFF60060EF82 /* SF-Pro-Display-BlackItalic.otf */,
+				BCED619C2069EFF60060EF82 /* SF-Pro-Display-HeavyItalic.otf */,
+				BCED619D2069EFF60060EF82 /* SF-Pro-Display-Light.otf */,
+				BCED619E2069EFF60060EF82 /* SF-Pro-Display-LightItalic.otf */,
+				BCED619F2069EFF60060EF82 /* SFCompactDisplay-Ultralight.otf */,
+				BCED61A02069EFF60060EF82 /* SFCompactText-RegularItalic.otf */,
+				BCED61A12069EFF60060EF82 /* SFCompactText-Semibold.otf */,
+				BCED61A22069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,12 +226,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */,
+				BCED61A72069EFF60060EF82 /* SFCompactDisplay-Ultralight.otf in Resources */,
 				BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */,
+				BCED61AA2069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf in Resources */,
 				BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */,
 				BC874479204004C7005B43F7 /* Assets.xcassets in Resources */,
 				BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */,
 				BC874477204004C7005B43F7 /* Main.storyboard in Resources */,
+				BCED61A52069EFF60060EF82 /* SF-Pro-Display-Light.otf in Resources */,
 				BC1F2AE220628672001289F0 /* colors.txt in Resources */,
+				BCED61A62069EFF60060EF82 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				BCED61A82069EFF60060EF82 /* SFCompactText-RegularItalic.otf in Resources */,
+				BCED61A42069EFF60060EF82 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
+				BCED61A92069EFF60060EF82 /* SFCompactText-Semibold.otf in Resources */,
+				BCED61A32069EFF60060EF82 /* SF-Pro-Display-BlackItalic.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +258,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case03.Localized.swift\"\n\n### storyboards\n# testing script case 04\nswiftgen storyboards -t swift4 \"${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard\" -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case04.Storyboards.swift\"\n\n### xcassets\n# testing script case 05\nswiftgen xcassets \"${SRCROOT}/${TARGETNAME}/Assets.xcassets\" -t swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case05.Xcassets.swift\"\n\n### colors\n# testing script case 06\nswiftgen colors -t swift4 \"${SRCROOT}/${TARGETNAME}/Resources/colors.txt\"  -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case06.Colors.swift\"\n\n### Font\n\n\n\n\n\n\n";
+			shellScript = "### String\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --template structured-swift4 --output \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case01.Localized.swift\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case02.Localized.swift\"\n\n# testing script case 03\nswiftgen strings --param enumName=TestCase03Strings \"${SRCROOT}/${TARGETNAME}/Resources/Base.lproj/TestCase03Localizable.strings\" -t structured-swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case03.Localized.swift\"\n\n### storyboards\n# testing script case 04\nswiftgen storyboards -t swift4 \"${SRCROOT}/${TARGETNAME}/Base.lproj/Main.storyboard\" -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case04.Storyboards.swift\"\n\n### xcassets\n# testing script case 05\nswiftgen xcassets \"${SRCROOT}/${TARGETNAME}/Assets.xcassets\" -t swift4 -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case05.Xcassets.swift\"\n\n### colors\n# testing script case 06\nswiftgen colors -t swift4 \"${SRCROOT}/${TARGETNAME}/Resources/colors.txt\"  -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case06.Colors.swift\"\n\n### Font\n\n# testing script case 07\n# https://developer.apple.com/fonts/\nswiftgen fonts -t swift4 \"${SRCROOT}/${TARGETNAME}/Resources/Font\"  -o \"${SRCROOT}/${TARGETNAME}/Constants/BasicTemplate/Test.Case07.Font.swift\"\n\n\n\n\n";
 		};
 		BCAE7C02205FC5F400C18705 /* SwiftGen Custom */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -245,6 +288,7 @@
 				BCAE7C12205FD0E700C18705 /* Test.Case05.Xcassets.swift in Sources */,
 				BCAE7C0F205FCC6100C18705 /* Test.Case03.Localized.swift in Sources */,
 				BCAE7C0D205FCC6100C18705 /* Test.Case01.Localized.swift in Sources */,
+				BCED61AC2069F0060060EF82 /* Test.Case07.Font.swift in Sources */,
 				BCAE7C0E205FCC6100C18705 /* Test.Case02.Localized.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
