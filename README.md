@@ -37,7 +37,7 @@ $ swiftgen ...
   </tr>
   <tr>
   	<td><img width="391" height="114" src="/Image/script_setting00.png"></img></td>
-    <td><img width="637" height="530" src="/Image/script_setting01.png"></img></td>
+    <td><img width="424" height="353" src="/Image/script_setting01.png"></img></td>
   </tr>
 </table>
 
