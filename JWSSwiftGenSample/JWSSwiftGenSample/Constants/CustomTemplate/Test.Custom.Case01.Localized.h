@@ -14,5 +14,3 @@
   #define test_case01_title_top01 "test_case01_title_top01"
   /// LOG : ["translation": "test(case01) sample 1", "name": "test_case01_title_top01", "key": "test_case01_title_top01"]
 
-
-a
