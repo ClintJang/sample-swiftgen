@@ -52,7 +52,7 @@ $ swiftgen ...
 ## Case 01 ~ 07 : Test results
 <table style="width:100%">
   <tr>
-  	<td><img width="251" height="494" src="/Image/use_case_00.png"></img></td>
+  	<td><img width="295" height="130" src="/Image/use_case_00.png"></img></td>
   </tr>
 </table>
 
@@ -232,9 +232,7 @@ swiftgen fonts -t swift4 "${SRCROOT}/${TARGETNAME}/Resources/Font"  -o "${SRCROO
 
 
 # Samples (User Custom, Use of Stencil)
-> I will use the Samples (Base Template) use case and test the custom.
+> Let's create a file that you want to make.
+> What if you want to make it an Objective-C source? Let's try it.
 
-> I will test the basics and customize it later.
-
-# memo
-It's a bit difficult ... but ..
+.. doing it.
