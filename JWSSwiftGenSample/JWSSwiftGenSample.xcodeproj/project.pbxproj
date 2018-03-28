@@ -14,6 +14,7 @@
 		BC874477204004C7005B43F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC874475204004C7005B43F7 /* Main.storyboard */; };
 		BC874479204004C7005B43F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC874478204004C7005B43F7 /* Assets.xcassets */; };
 		BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87447A204004C7005B43F7 /* LaunchScreen.storyboard */; };
+		BCA661C9206BA5DA00DC2A97 /* objectivecLocalization.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BCA661C8206BA5DA00DC2A97 /* objectivecLocalization.stencil */; };
 		BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */; };
 		BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB152A204571760055E7DD /* TestCase02Localizable.strings */; };
 		BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB153220457B9E0055E7DD /* TestCase03Localizable.strings */; };
@@ -43,6 +44,7 @@
 		BC874478204004C7005B43F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC87447B204004C7005B43F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC87447D204004C7005B43F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCA661C8206BA5DA00DC2A97 /* objectivecLocalization.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objectivecLocalization.stencil; sourceTree = "<group>"; };
 		BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TestCase01Localizable.strings; sourceTree = "<group>"; };
 		BCAB152A204571760055E7DD /* TestCase02Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TestCase02Localizable.strings; sourceTree = "<group>"; };
 		BCAB153120457B9E0055E7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		BC874465204004C6005B43F7 = {
 			isa = PBXGroup;
 			children = (
+				BCA661C6206BA5DA00DC2A97 /* swiftgen */,
 				BC874470204004C7005B43F7 /* JWSSwiftGenSample */,
 				BC87446F204004C7005B43F7 /* Products */,
 			);
@@ -104,6 +107,22 @@
 				BC87447D204004C7005B43F7 /* Info.plist */,
 			);
 			path = JWSSwiftGenSample;
+			sourceTree = "<group>";
+		};
+		BCA661C6206BA5DA00DC2A97 /* swiftgen */ = {
+			isa = PBXGroup;
+			children = (
+				BCA661C7206BA5DA00DC2A97 /* StencilTemplates */,
+			);
+			path = swiftgen;
+			sourceTree = "<group>";
+		};
+		BCA661C7206BA5DA00DC2A97 /* StencilTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				BCA661C8206BA5DA00DC2A97 /* objectivecLocalization.stencil */,
+			);
+			path = StencilTemplates;
 			sourceTree = "<group>";
 		};
 		BCAB15212045587D0055E7DD /* Resources */ = {
@@ -230,6 +249,7 @@
 				BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */,
 				BCED61AA2069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf in Resources */,
 				BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */,
+				BCA661C9206BA5DA00DC2A97 /* objectivecLocalization.stencil in Resources */,
 				BC874479204004C7005B43F7 /* Assets.xcassets in Resources */,
 				BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */,
 				BC874477204004C7005B43F7 /* Main.storyboard in Resources */,
