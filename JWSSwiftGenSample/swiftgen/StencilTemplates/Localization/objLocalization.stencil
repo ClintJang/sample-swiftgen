@@ -1,0 +1,21 @@
+{% if tables.count > 0 %}
+
+{# You can modify the value below with the actual value. #}
+{% macro recursiveBlock table item sp %}
+{{sp}}  {% for string in item.strings %}
+{{sp}}  {% if not param.noComments %}
+{{sp}}  /// {{string.translation}}
+{{sp}}  #define {{string.name}} "{{string.key}}"
+{{sp}}  {% endif %}
+{{sp}}  {% if not param.noComments %}
+{{sp}}  /// LOG : {{string}}
+{{sp}}  {% endif %}
+{{sp}}  {% endfor %}
+{% endmacro %}
+
+{# print #}
+{% call recursiveBlock tables.first.name tables.first.levels "" %}
+
+{% else %}
+// No string found
+{% endif %}

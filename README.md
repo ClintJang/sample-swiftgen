@@ -233,6 +233,67 @@ swiftgen fonts -t swift4 "${SRCROOT}/${TARGETNAME}/Resources/Font"  -o "${SRCROO
 
 # Samples (User Custom, Use of Stencil)
 > Let's create a file that you want to make.
+
+
+- What is Stencil? : https://stencil.fuller.li/en/latest/
+<pre>
+The Stencil template language
+
+Stencil is a simple and powerful template language for Swift. 
+It provides a syntax similar to Django and Mustache. 
+If you’re familiar with these, 
+you will feel right at home with Stencil.
+</pre>
+
+- You only need to know how to use it, and you can use Stencil by default.
+- Take a look at the use cases below.
+
+## How do I customize it?
+- If you know the grammar, how can you customize it? That way, you can click the link below to get the template source. This can be analyzed and corrected.
+> https://github.com/SwiftGen/SwiftGen/tree/master/templates
+
+## Case 01 : String, Objective-C?
 > What if you want to make it an Objective-C source? Let's try it.
+
+- I tried to make it #define simply. :)
+
+<pre>
+Script.. 
+
+# testing script case 01
+swiftgen strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings" --templatePath ${SRCROOT}/swiftgen/StencilTemplates/Localization/objLocalization.stencil --output "${SRCROOT}/${TARGETNAME}/Constants/CustomTemplate/Test.Custom.Case01.Localized.h"
+</pre>
+
+- objLocalization.stencil
+<pre>
+{% if tables.count > 0 %}
+
+{# You can modify the value below with the actual value. #}
+{% macro recursiveBlock table item sp %}
+{{sp}}  {% for string in item.strings %}
+{{sp}}  {% if not param.noComments %}
+{{sp}}  /// {{string.translation}}
+{{sp}}  #define {{string.name}} "{{string.key}}"
+{{sp}}  {% endif %}
+{{sp}}  {% if not param.noComments %}
+{{sp}}  /// LOG : {{string}}
+{{sp}}  {% endif %}
+{{sp}}  {% endfor %}
+{% endmacro %}
+
+{# print #}
+{% call recursiveBlock tables.first.name tables.first.levels "" %}
+
+{% else %}
+// No string found
+{% endif %}
+</pre>
+
+### result
+- file link : .. /Constants/CustomTemplate/[Test.Custom.Case01.Localized.h](https://github.com/ClintJang/sample-swiftgen/blob/master/JWSSwiftGenSample/JWSSwiftGenSample/Constants/CustomTemplate/Test.Custom.Case01.Localized.h)
+
+
+## Case 02 : String
+> Want to make your default template look different?
 
 .. doing it.

@@ -1,0 +1,12 @@
+{% if tables.count > 0 %}
+
+//import Foundation
+
+// .. doing it
+
+{% else %}
+// No string found
+{% endif %}
+
+
+

@@ -14,7 +14,9 @@
 		BC874477204004C7005B43F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC874475204004C7005B43F7 /* Main.storyboard */; };
 		BC874479204004C7005B43F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC874478204004C7005B43F7 /* Assets.xcassets */; };
 		BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC87447A204004C7005B43F7 /* LaunchScreen.storyboard */; };
-		BCA661C9206BA5DA00DC2A97 /* objectivecLocalization.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BCA661C8206BA5DA00DC2A97 /* objectivecLocalization.stencil */; };
+		BCA661D5206BB08900DC2A97 /* objLocalization.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BCA661D3206BB08900DC2A97 /* objLocalization.stencil */; };
+		BCA661D6206BB08900DC2A97 /* swiftLocalization.stencil in Resources */ = {isa = PBXBuildFile; fileRef = BCA661D4206BB08900DC2A97 /* swiftLocalization.stencil */; };
+		BCA661D9206BB10700DC2A97 /* Test.Custom.Case02.Localized.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA661D8206BB10700DC2A97 /* Test.Custom.Case02.Localized.swift */; };
 		BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */; };
 		BCAB152B204571760055E7DD /* TestCase02Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB152A204571760055E7DD /* TestCase02Localizable.strings */; };
 		BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCAB153220457B9E0055E7DD /* TestCase03Localizable.strings */; };
@@ -44,7 +46,10 @@
 		BC874478204004C7005B43F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC87447B204004C7005B43F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC87447D204004C7005B43F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCA661C8206BA5DA00DC2A97 /* objectivecLocalization.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objectivecLocalization.stencil; sourceTree = "<group>"; };
+		BCA661D3206BB08900DC2A97 /* objLocalization.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = objLocalization.stencil; sourceTree = "<group>"; };
+		BCA661D4206BB08900DC2A97 /* swiftLocalization.stencil */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = swiftLocalization.stencil; sourceTree = "<group>"; };
+		BCA661D7206BB10700DC2A97 /* Test.Custom.Case01.Localized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.Custom.Case01.Localized.h; sourceTree = "<group>"; };
+		BCA661D8206BB10700DC2A97 /* Test.Custom.Case02.Localized.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.Custom.Case02.Localized.swift; sourceTree = "<group>"; };
 		BCAB15262045614C0055E7DD /* TestCase01Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TestCase01Localizable.strings; sourceTree = "<group>"; };
 		BCAB152A204571760055E7DD /* TestCase02Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = TestCase02Localizable.strings; sourceTree = "<group>"; };
 		BCAB153120457B9E0055E7DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TestCase03Localizable.strings; sourceTree = "<group>"; };
@@ -120,9 +125,18 @@
 		BCA661C7206BA5DA00DC2A97 /* StencilTemplates */ = {
 			isa = PBXGroup;
 			children = (
-				BCA661C8206BA5DA00DC2A97 /* objectivecLocalization.stencil */,
+				BCA661D2206BB08900DC2A97 /* Localization */,
 			);
 			path = StencilTemplates;
+			sourceTree = "<group>";
+		};
+		BCA661D2206BB08900DC2A97 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				BCA661D3206BB08900DC2A97 /* objLocalization.stencil */,
+				BCA661D4206BB08900DC2A97 /* swiftLocalization.stencil */,
+			);
+			path = Localization;
 			sourceTree = "<group>";
 		};
 		BCAB15212045587D0055E7DD /* Resources */ = {
@@ -163,6 +177,8 @@
 		BCAE7C0C205FCC6000C18705 /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				BCA661D7206BB10700DC2A97 /* Test.Custom.Case01.Localized.h */,
+				BCA661D8206BB10700DC2A97 /* Test.Custom.Case02.Localized.swift */,
 			);
 			path = CustomTemplate;
 			sourceTree = "<group>";
@@ -249,13 +265,14 @@
 				BCAB15272045614C0055E7DD /* TestCase01Localizable.strings in Resources */,
 				BCED61AA2069EFF60060EF82 /* SFCompactText-SemiboldItalic.otf in Resources */,
 				BC87447C204004C7005B43F7 /* LaunchScreen.storyboard in Resources */,
-				BCA661C9206BA5DA00DC2A97 /* objectivecLocalization.stencil in Resources */,
 				BC874479204004C7005B43F7 /* Assets.xcassets in Resources */,
 				BCAB153020457B9E0055E7DD /* TestCase03Localizable.strings in Resources */,
 				BC874477204004C7005B43F7 /* Main.storyboard in Resources */,
 				BCED61A52069EFF60060EF82 /* SF-Pro-Display-Light.otf in Resources */,
 				BC1F2AE220628672001289F0 /* colors.txt in Resources */,
+				BCA661D6206BB08900DC2A97 /* swiftLocalization.stencil in Resources */,
 				BCED61A62069EFF60060EF82 /* SF-Pro-Display-LightItalic.otf in Resources */,
+				BCA661D5206BB08900DC2A97 /* objLocalization.stencil in Resources */,
 				BCED61A82069EFF60060EF82 /* SFCompactText-RegularItalic.otf in Resources */,
 				BCED61A42069EFF60060EF82 /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 				BCED61A92069EFF60060EF82 /* SFCompactText-Semibold.otf in Resources */,
@@ -292,7 +309,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "";
+			shellScript = "# What if you want to make it an Objective-C source? Let's try it.\n\n# testing script case 01\nswiftgen strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strings\" --templatePath ${SRCROOT}/swiftgen/StencilTemplates/Localization/objLocalization.stencil --output \"${SRCROOT}/${TARGETNAME}/Constants/CustomTemplate/Test.Custom.Case01.Localized.h\"\n\n# testing script case 02\nswiftgen strings --param enumName=TestCustomCase02Strings \"${SRCROOT}/${TARGETNAME}/Resources/TestCase02Localizable.strings\" -p ${SRCROOT}/swiftgen/StencilTemplates/Localization/swiftLocalization.stencil -o \"${SRCROOT}/${TARGETNAME}/Constants/CustomTemplate/Test.Custom.Case02.Localized.swift\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -306,6 +323,7 @@
 				BCAE7C10205FCC6100C18705 /* Test.Case04.Storyboards.swift in Sources */,
 				BC1F2AE420628A00001289F0 /* Test.Case06.Colors.swift in Sources */,
 				BCAE7C12205FD0E700C18705 /* Test.Case05.Xcassets.swift in Sources */,
+				BCA661D9206BB10700DC2A97 /* Test.Custom.Case02.Localized.swift in Sources */,
 				BCED61AE2069F1E00060EF82 /* Test.Case07.Fonts.swift in Sources */,
 				BCAE7C0F205FCC6100C18705 /* Test.Case03.Localized.swift in Sources */,
 				BCAE7C0D205FCC6100C18705 /* Test.Case01.Localized.swift in Sources */,
