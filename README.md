@@ -36,7 +36,7 @@ $ swiftgen ...
     <th>Base Template Detail</th> 
   </tr>
   <tr>
-  	<td><img width="295" height="130" src="/Image/script_setting00.png"></img></td>
+  	<td><img width="382" height="196" src="/Image/script_setting00.png"></img></td>
     <td><img width="424" height="353" src="/Image/script_setting01.png"></img></td>
   </tr>
 </table>
