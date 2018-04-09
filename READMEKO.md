@@ -16,7 +16,7 @@ $ swiftgen --version
 	- 이 저장소는 기본 SwiftGen 저장소에 병합되었다고 합니다.
 
 # 설치 방법은?
-[link](https://github.com/SwiftGen/SwiftGen)를 클릭해서 "Installation"부분을 참고 하세요. 간단하게는 아래의 내용대로 하시면 됩니다. (제가 한 방법이죠)
+[link](https://github.com/SwiftGen/SwiftGen)를 클릭해서 "Install"부분을 하세요. 간단하게는 아래의 내용대로 하시면 됩니다.
 <pre>
 ex) 
 install
@@ -334,6 +334,6 @@ swiftgen strings "${SRCROOT}/${TARGETNAME}/Resources/TestCase01Localizable.strin
 
 > 만약 빌드때 느리다면, 빌드시점에서 사용하지 않고, 수정이 있을 때, 별도로 쉘에서 스크립트 명령어로 실행하는 식으로 관리할 수도 있습니다. 어짜피 자산 파일들은 자주 변경되는 부분은 아니니깐요.
 
-- [iOSSampleApp](https://github.com/igorkulman/iOSSampleApp) 이런 식으로 하나의 프로젝트 단위 패키지 화가 가능합니다.
+- [iOSSampleApp](https://github.com/igorkulman/iOSSampleApp) 이런 식으로 하나의 프로젝트 단위 패키지가 가능합니다.
 - 감사합니다. 
 	- 시간이 되면 조금더 셈플을 만들어 보겠습니다.
