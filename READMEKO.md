@@ -16,7 +16,7 @@ $ swiftgen --version
 	- 이 저장소는 기본 SwiftGen 저장소에 병합되었다고 합니다.
 
 # 설치 방법은?
-[link](https://github.com/SwiftGen/SwiftGen)를 클릭해서 "Install"부분을 하세요. 간단하게는 아래의 내용대로 하시면 됩니다.
+[link](https://github.com/SwiftGen/SwiftGen)를 클릭해서 "Installation"부분을 참고 하세요. 간단하게는 아래의 내용대로 하시면 됩니다. (제가 한 방법이죠)
 <pre>
 ex) 
 install
