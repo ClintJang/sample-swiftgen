@@ -2,7 +2,7 @@
 [![License](http://img.shields.io/badge/License-MIT-green.svg?style=flat)](https://github.com/clintjang/JWSBoltsSwiftSample/blob/master/LICENSE) [![Swift 4](https://img.shields.io/badge/swift-4.0-orange.svg?style=flat)](https://swift.org) 
 > SwiftGen은 코드를 자동으로 만들어줍니다.!! 한번 익히면 편리해요~
 - [SwiftGen](https://github.com/SwiftGen/SwiftGen) : 어떻게 사용하는 것일까요? 라이브러리 링크는 클릭하시면 됩니다.
-- SwiftGen은 auto-generate 됩니다. 우리의 소스를 안전한 유형으로 자동으로 변경해 주어서 작업 노가다?를 줄이면서 타입의 안정성을 보장해 주는 도구입니다.
+- auto-generate 됩니다. 즉, 자동으로 소스를 변경/생성해주어서 작업 노가다?를 줄이면서 타입의 안정성을 보장해 주는 도구입니다.
 
 # 개발하기에 앞서서 버전을 확인해보았습니다.
 | 버전 정보를 보니 특별한 것이 있습니다. 하나의 라이브러리에 3가지 라이브러리 정보가 표시가 되네요. !!!
