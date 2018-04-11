@@ -6,10 +6,12 @@
 
 # 개발하기에 앞서서 버전을 확인해보았습니다.
 | 버전 정보를 보니 특별한 것이 있습니다. 하나의 라이브러리에 3가지 라이브러리 정보가 표시가 되네요. !!!
-<pre>
+
+```
 $ swiftgen --version
   SwiftGen v5.2.1 (Stencil v0.9.0, StencilSwiftKit v2.3.0, SwiftGenKit v2.1.1)
-</pre>
+```
+
 - [Stencil](https://stenciljs.com/) : 스텐실은.. magical!, reusable!! 이라 하네요. 매직컬하게 재사용이 가능한 웹 컴퍼넌트 컴파일러라고 합니다.
 - [StencilSwiftKit](https://github.com/SwiftGen/StencilSwiftKit) : Swift 코드 생성 전용 스텐실 노드와 필터들을 추가로 가져 오는 프레임 워크입니다.
 - [SwiftGenKit](https://github.com/SwiftGen/SwiftGenKit) : SwiftGen의 프레임 워크로 다양한 리소스를 분석해서 스텐실 컨텍스트로 변환합니다.
@@ -17,7 +19,7 @@ $ swiftgen --version
 
 # 설치 방법은?
 [link](https://github.com/SwiftGen/SwiftGen)를 클릭해서 "Install"부분을 하세요. 간단하게는 아래의 내용대로 하시면 됩니다.
-<pre>
+```
 ex) 
 설치
 
@@ -26,7 +28,7 @@ $ brew install swiftgen
 
 확인
 $ swiftgen --version
-</pre>
+```
 
 # 이해는 뭐니뭐니해도 셈플이지요~
 > 우선 기본 템플릿으로 만들어 보며 사용법을 익혀보고, 그 이후에 스텐실을 이용해서 내가 원하는 템플릿 파일을 만드는 방법에 대해 알아보려고 합니다.
@@ -65,7 +67,7 @@ $ swiftgen --version
 
 - ViewController.swift
     - 만들어진 결과물로 아래와같은 코드로 나타내어 봤습니다. 
-<pre>
+```swift
 override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -103,7 +105,7 @@ override func viewDidLoad() {
         //        case06Label.font = UIFont(font: FontFamily.SFCompactDisplay.ultralight, size: 30.0)
         case07Label.font = UIFont(font: FontFamily.SFProDisplay.blackItalic, size: 30.0)
     }
-</pre>
+```
 
 > 자세한 내용을 살펴볼까요?
 
