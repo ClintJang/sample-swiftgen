@@ -17,7 +17,7 @@ $ swiftgen --version
 
 # Installation
 Before you test, be sure to follow the [link](https://github.com/SwiftGen/SwiftGen) and follow the installation process.
-<pre>
+```
 ex) 
 install
 
@@ -26,7 +26,7 @@ $ brew install swiftgen
 
 confirm
 $ swiftgen ...
-</pre>
+```
 
 # Samples (Base Template)
 > Download the sample source and modify the "/Resources/TestCase0?Localizable.strings" file. Then run the build. This will change the file "/Constants/Test.Case0?.Localized.swift".
@@ -58,7 +58,7 @@ $ swiftgen ...
 </table>
 
 - ViewController.swift
-<pre>
+```swift
 override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -96,7 +96,7 @@ override func viewDidLoad() {
         //        case06Label.font = UIFont(font: FontFamily.SFCompactDisplay.ultralight, size: 30.0)
         case07Label.font = UIFont(font: FontFamily.SFProDisplay.blackItalic, size: 30.0)
     }
-</pre>
+```
 
 > Let's look at the details.
 
